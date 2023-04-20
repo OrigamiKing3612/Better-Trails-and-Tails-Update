@@ -1,0 +1,51 @@
+{
+	"schemaVersion": 1,
+	"id": "bettertrailsandtailsupdate",
+	"version": "${version}",
+	"name": "Better Trails and Tails Update",
+	"description": "",
+	"authors": [
+		"OrigamiKing3612"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/bettertrailsandtailsupdate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.origamiking.mcmods.bettertrailsandtailsupdate.BetterTrailsandTailsUpdateMain"
+		],
+		"fabric-datagen": [
+			"net.origamiking.mcmods.bettertrailsandtailsupdate.datagen.BetterTrailsandTailsUpdateModDataGen"
+		],
+		"client": [
+			"net.origamiking.mcmods.bettertrailsandtailsupdate.BetterTrailsandTailsUpdateClient"
+		]
+	},
+	"mixins": [
+		"bettertrailsandtailsupdate.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": ">=23w16a",
+		"java": ">=17",
+		"fabric-api": "*",
+		"origamikings-api":"*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.website": "https://mods.origamiking.net",
+				"modmenu.modrinth": "https://modrinth.com/mod/MOD"
+			},
+			"badges": [],
+			"update_checker": true
+		}
+	}
+}
