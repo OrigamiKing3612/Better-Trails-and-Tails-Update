@@ -1,7 +1,7 @@
 package net.origamiking.mcmods.bettertrailsandtailsupdate;
 
 import net.fabricmc.api.ModInitializer;
-
+import net.origamiking.mcmods.bettertrailsandtailsupdate.items.ModItems;
 import net.origamiking.mcmods.oapi.commands.CommandsUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +16,7 @@ public class BetterTrailsandTailsUpdateMain implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		BetterTrailsandTailsUpdateMain.LOGGER.info("Starting " + NAME);
+		ModItems.register();
 		CommandsUtil.makeVersionCommand(MOD_ID, VERSION);
 	}
 }
