@@ -8,8 +8,10 @@
 		"OrigamiKing3612"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/bettertrailsandtailsupdate",
+		"sources": "https://github.com/OrigamiKing3612/Better-Trails-and-Tails-Update",
+		"issues": "https://github.com/OrigamiKing3612/Better-Trails-and-Tails-Update/issues",
+		"website": ""
 	},
 	"license": "Apache-2.0",
 	"icon": "assets/bettertrailsandtailsupdate/icon.png",
@@ -42,7 +44,7 @@
 		"modmenu": {
 			"links": {
 				"modmenu.website": "https://mods.origamiking.net",
-				"modmenu.modrinth": "https://modrinth.com/mod/MOD"
+				"modmenu.modrinth": "https://modrinth.com/mod/bettertrailsandtailsupdate"
 			},
 			"badges": [],
 			"update_checker": true
