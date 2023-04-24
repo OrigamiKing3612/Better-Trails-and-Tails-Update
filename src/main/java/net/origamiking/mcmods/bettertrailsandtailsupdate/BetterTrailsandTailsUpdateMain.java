@@ -10,10 +10,12 @@ public class BetterTrailsandTailsUpdateMain implements ModInitializer {
 	public static final String MOD_ID = "bettertrailsandtailsupdate";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static final String VERSION = "0.0.1-1.20";
+	public static final String NAME = "Better Trails and Tails Update " + VERSION;
+
 
 	@Override
 	public void onInitialize() {
-		BetterTrailsandTailsUpdateMain.LOGGER.info("Hello Fabric world from " + MOD_ID + "!");
+		BetterTrailsandTailsUpdateMain.LOGGER.info("Starting " + NAME);
 		CommandsUtil.makeVersionCommand(MOD_ID, VERSION);
 	}
 }
